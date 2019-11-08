@@ -1,0 +1,37 @@
+server:
+  port: 8888
+  tomcat:
+    uri-encoding: UTF-8
+#  servlet:
+#    context-path: /boot/
+spring:
+  datasource:
+    url: jdbc:mysql://47.105.179.162:3306/worm
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.jdbc.Driver
+  http:
+    encoding:
+      charset: utf-8
+      enabled: true
+      force: true
+  thymeleaf:
+    cache: false
+    prefix: classpath:/templates/
+    suffix: .jsp
+ # rabbitmq:
+#    addresses: 127.0.0.1
+#    port: 5672
+#    username: mq
+#    password: mq@123
+mybatis:
+  mapper-locations: classpath:mappering/**Dao.xml
+  type-aliases-package: com.xxxx.model
+swagger:
+  title: persevvre-in-study
+  description: restful接口提供
+  version: 1.0.Boot
+  contact.name: hide_yjl,k,vurx
+  contact.email: 1250687342@qq.com
+  base-package: com.xxxx
+  base-path: /**
