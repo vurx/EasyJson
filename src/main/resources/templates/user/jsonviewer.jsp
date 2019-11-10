@@ -6,7 +6,7 @@
     <link rel="shortcut icon" href="/images/16.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>JSONViewer</title>
+    <title>JSONViewer-Test Azure DevOps</title>
     <link rel="stylesheet" href="/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/jsoneditor.min.css">
     <link rel="stylesheet" href="/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
