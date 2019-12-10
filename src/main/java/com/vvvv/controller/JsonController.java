@@ -17,4 +17,9 @@ public class JsonController {
     public String JsonView() {
         return "user/jsonviewer";
     }
+
+    @GetMapping("login")
+    public String login() {
+        return "user/login";
+    }
 }
